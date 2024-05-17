@@ -1,4 +1,4 @@
-import os
+import os as os
 
 from modelos.restaurante import Restaurante
 
