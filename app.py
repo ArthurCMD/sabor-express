@@ -107,5 +107,15 @@ def main():
     exibir_opcoes()
     escolher_opcao()
 
+restaurante_praca = Restaurante('praça','Gourmet')
+restaurante_praca.receber_avaliacao('Gui',10)
+restaurante_praca.receber_avaliacao('Emi',8)
+restaurante_praca.receber_avaliacao('Lais',5)
+restaurante_oshiro = Restaurante('Oshiro Sushi','Sushi')
+restaurante_oshiro.alternar_estado()
+restaurante_dory = Restaurante('Dory Sushi','Sushi Gourmet')
+
+Restaurante.listar_restaurantes()
+
 if __name__ == '__main__':
     main()
